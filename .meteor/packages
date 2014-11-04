@@ -4,10 +4,13 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
 insecure
 iron:router
 alanning:roles
 accounts-password
 accounts-ui
+tap:i18n
+nooitaf:semantic-ui
+fourseven:scss
+spiderable
 
