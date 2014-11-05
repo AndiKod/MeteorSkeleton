@@ -1,0 +1,30 @@
+<template name="header">
+
+<div class="ui page grid"><div class="column">
+    
+<div class="ui small menu">
+  <a class="active item" href="{{pathFor 'home'}}">
+    <i class="home icon"></i> 
+    MeteorSkel
+  </a>
+  {{#if isInRole 'admin'}}
+    <a class="item" href="">Admin</a> 
+  {{/if}}
+  <div class="right menu">
+
+    <div class="ui dropdown item">
+        {{_ "LANG" }} <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item switchEnglish">English</a>
+        <a class="item switchFrench">French</a>
+      </div>
+    </div>
+    <div class="item">
+        {{> loginButtons}}
+    </div>
+  </div>
+</div>
+    
+</div></div>   
+
+</template>

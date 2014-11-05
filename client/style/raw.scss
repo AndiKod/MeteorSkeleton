@@ -1,0 +1,75 @@
+/*
+*	File Type: SCSS Styles
+*	Path: client/styles/raw.scss;
+*	
+*	Author: Andrei Curelaru
+*/ 
+
+@import "lib/assets/bourbon/bourbon";
+@import "lib/assets/neat/neat";
+@import "lib/assets/base/base";
+
+$mobile: new-breakpoint(max-width 480px);
+$tablet: new-breakpoint(min-width 480px);
+$desktop: new-breakpoint(min-width 992px);
+$desktop-xl: new-breakpoint(min-width 1220px);
+
+
+
+.wrapper {
+
+    	@include outer-container;
+
+
+			// MOBILE Max 480px
+      @include media($mobile) {     
+				.primary { 
+						@include row();
+						border: 1px solid green;
+				 }
+  			.secondary { 
+  				@include row();
+  				margin-top: 20px;
+  				border: 1px solid green; 
+  			}
+    	}
+
+			// TABLET
+      @include media($tablet) {
+          .primary { 
+          	@include row();
+          	border: 1px solid red;
+          }
+    			.secondary { 
+    				@include row();
+  					margin-top: 10px;
+    				border: 1px solid red; 
+    			}
+      }
+			
+			// DESKTOP
+      @include media($desktop) {
+		.primary { 
+			@include span-columns(6);
+			border: 1px solid yellow;
+		}
+		.secondary { 
+			@include span-columns(6);
+			border: 1px solid yellow; 
+		}
+      }
+
+			// DESKTOP-XL
+      @include media($desktop-xl) {
+		.primary { 
+			@include span-columns(6);
+			border: 1px solid blue;
+		}
+		.secondary { 
+			@include span-columns(6);
+			border: 1px solid blue; 
+		}
+      }
+      
+
+}

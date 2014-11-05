@@ -1,0 +1,1 @@
+Right, I was talking about Velocity & Jasmin, as Velocity will be the next official Testing package. Still working around ... i'll add it later.
