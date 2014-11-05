@@ -1,21 +1,35 @@
 MeteorSkeleton
 ================
 
-A temporary repo that will stay up to date with futures realeases, just a Yeoman-like starter repo.
+A simple repo that will stay up to date with futures realeases of core and third party paks', just a Yeoman-like starter repo. For the moment, those packages are bundeled:
 
-For te moment, those packages are bundeled:
-
+#### Session/Users Management
 * accounts-password    1.0.4  Password support for accounts
 * accounts-ui          1.1.3  Simple templates to add login widgets to an app
 * alanning:roles       1.2.13  Role-based authorization
+
+#### Style/DOM
 * fourseven:scss       1.0.0  Style with attitude and autoprefixer. // + Bourbon & Neat
-* insecure             1.0.1  Allow all database writes by default
-* iron:router          1.0.0  Routing specifically designed for Meteor
-* meteor-platform      1.2.0  Include a standard set of Meteor packages in your...
 * nooitaf:semantic-ui  0.19.3  Semantic UI packaged for Meteor
 * jquery               Manipulate the DOM using CSS selectors
-* spiderable           1.0.5  Makes the application crawlable to web spiders
+* _Next, will add a NoFramework option, or Bootstrap/Foundation_
+
+#### Routing
+* iron:router          1.0.0  Routing specifically designed for Meteor
+
+#### Internationalisation/Translation
 * tap:i18n 1.0.7  A comprehensive internationalization solution
+
+### Testing
+* mike:mocha           0.4.4  Run mocha tests in the browser
+
+
+#### SEO
+* spiderable           1.0.5  Makes the application crawlable to web spiders
+
+#### Default packages
+* insecure             1.0.1  Allow all database writes by default
+* meteor-platform      1.2.0  Include a standard set of Meteor packages in your...
 
 
 
