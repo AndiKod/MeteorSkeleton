@@ -1,9 +1,7 @@
 /*
 *	File Type: Manager
-*	Managed View: client/views/home.html
+*	Managing: client/views/home.html
 *	Taking Route: home
-*	
-*	Author: Andrei Curelaru
 */ 
 
 // Helper : Providing Data for the Template
