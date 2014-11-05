@@ -23,9 +23,14 @@ For te moment, those packages are bundeled:
 
 No surprises :
 ```
-$ git clone https://github.com/AndreiCurelaru/MeteorSkeleton.git
-$ cd MeteorSkeleton
-$ meteor // then Go to 127.0.0.1:3000 in your fav' browser.
+$ git clone https://github.com/AndreiCurelaru/MeteorSkeleton.git MyAppName
+$ cd MyAppName
+$ meteor 
 ```
+At that point, you should be able to see your basic app on http://localhost:3000 or 127.0.0.1:3000
 
-I'll complete this README with more details, and some other ressources, you can of course remove any pakage with someting like `$ meteor remove nooitaf:semantic-ui` and install whatever else you need from [Atmosphere](https://atmospherejs.com/).
+I'll complete this README with more details on the included files and directories, plus some other ressources. You can of course remove any pakage with someting like `$ meteor remove nooitaf:semantic-ui` and install whatever else you need from [Atmosphere](https://atmospherejs.com/).
+
+If you see other needed packages for a good start, have questions or ideas, fell free to open Issues, or get in touch.
+
+Andrei
