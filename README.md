@@ -1,7 +1,28 @@
 MeteorSkeleton
 ================
 
-A simple repo that will stay up to date with futures realeases of core and third party paks', just a Yeoman-like starter repo. For the moment, those packages are bundeled:
+A simple Meteor repo, Yeoman-like starter, to spare you te time of creating folders structure and installing the essential(could change) packages you'll maybe need in addition to Meteor Core.
+
+You clearly can add/remove stuff, and update all packages with the `$ meteor update` command.
+
+At the moment it's just a beginning, so feel free to get in touch, throw ideas or wishes in the Issues, Star, Fork, ...
+
+---
+
+## Usage
+
+From the Console, into the folder you want to create your app :
+```
+$ git clone https://github.com/AndreiCurelaru/MeteorSkeleton.git MyApp
+$ cd MyApp
+$ meteor 
+```
+At that point, you should be able to see your basic app on http://localhost:3000 or 127.0.0.1:3000
+
+---
+
+## Packages included
+When possible, some minimal dummy data is already in the directories, along with some code comments to show basics "how did it works".
 
 #### Session/Users Management
 * accounts-password    1.0.4  Password support for accounts. 
@@ -46,15 +67,7 @@ _Next, will add a NoFramework option, or Bootstrap/Foundation_
 
 Just in case : [Meteor 1.0 Docs](https://docs.meteor.com/#/full/)
 
-## Usage
-
-No surprises :
-```
-$ git clone https://github.com/AndreiCurelaru/MeteorSkeleton.git MyAppName
-$ cd MyAppName
-$ meteor 
-```
-At that point, you should be able to see your basic app on http://localhost:3000 or 127.0.0.1:3000
+---
 
 I'll complete this README with more details on the included files and directories, plus some other ressources. You can of course remove any pakage with someting like `$ meteor remove nooitaf:semantic-ui` and install whatever else you need from [Atmosphere](https://atmospherejs.com/).
 
