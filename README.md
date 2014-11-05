@@ -1,9 +1,9 @@
 MeteorSkeleton
 ================
 
-A simple Meteor repo, Yeoman-like starter, to spare you te time of creating folders structure and installing the essential(could change) packages you'll maybe need in addition to Meteor Core.
+A simple Meteor repo, Yeoman-like starter, to spare you the time of creating folders structure and installing the essential(could change) packages you'll maybe need in addition to Meteor Core.
 
-You clearly can add/remove stuff, and update all packages with the `$ meteor update` command.
+You clearly can add others with `$ meteor add packageName` remove stuff with `$ meteor remove packageName`, check the actually installed ones with `$ meteor list` or update all packages+core with the `$ meteor update` command. To find the package you miss, head to [Atmosphere](https://atmospherejs.com/) for the easy way to browse them.
 
 At the moment it's just a beginning, so feel free to get in touch, throw ideas or wishes in the Issues, Star, Fork, ...
 
