@@ -69,8 +69,6 @@ Just in case : [Meteor 1.0 Docs](https://docs.meteor.com/#/full/)
 
 ---
 
-I'll complete this README with more details on the included files and directories, plus some other ressources. You can of course remove any pakage with someting like `$ meteor remove nooitaf:semantic-ui` and install whatever else you need from [Atmosphere](https://atmospherejs.com/).
+I'll complete this README with more details on the included files and directories, plus some other ressources. 
 
-If you see other needed packages for a good start, have questions or ideas, fell free to open Issues, or get in touch.
-
-Andrei
+_Andrei_
