@@ -1,3 +1,9 @@
+
+/!\ That project is oviously at least paused since 2014. 
+Many things had changed since then in the Meteor multiverse.
+Keeping it here anyway, in case I'll dive back into Metor some day.
+
+
 MeteorSkeleton
 ================
 
@@ -19,7 +25,7 @@ $ meteor
 ```
 At that point, you should be able to see your basic app on http://localhost:3000 or 127.0.0.1:3000
 
----
+
 
 ## Packages included
 When possible, some minimal dummy data is already in the directories, along with some code comments to show basics "how did it works".
